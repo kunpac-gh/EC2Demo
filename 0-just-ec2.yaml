@@ -4,7 +4,7 @@ Resources:
     Properties:
       AvailabilityZone: ap-northeast-1a
       ImageId: ami-00c79d83cf718a893
-      InstanceType: t2.micro
+      InstanceType: t2.small
       SecurityGroups:
         - !Ref SSHSecurityGroup
         - !Ref ServerSecurityGroup
