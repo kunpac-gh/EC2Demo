@@ -22,7 +22,7 @@ Resources:
     Properties:
       GroupDescription: Enable SSH access via port 22
       SecurityGroupIngress:
-      - CidrIp: 0.0.0.0/0
+      - CidrIp: 59.158.102.222/32
         FromPort: 22
         IpProtocol: tcp
         ToPort: 22
